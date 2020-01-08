@@ -8,6 +8,7 @@
 }
 .display {
     margin-top: 25px;
+    margin-left: 25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -15,8 +16,90 @@
     background-color: #322c2d;
     box-shadow: 1px 1px #322c2d;
     display: flex;
+    justify-content: center;
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+  
+}
+.buttonContent {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+}
+
+.numberContent {
+    width : 85%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.operatorsContent {
+    width : 15%;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+
+}
+
+.numbers {
+    width : 220px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.numberButtons {
+    font-size : 2em;
+    color: white;
+    padding : 15px;
+    margin : 6px;
+    border-radius : 50%;
+    background-color: #123c78;
+    box-shadow: 1px 1px black;
+    border: none;
+}
+
+.specialButtons {
+    width : 60%;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.specButtons {
+    font-size: 2.0rem;
+    color  : white;
+    padding : 15px;
+    border-radius : 50%;
+    margin: 1%;
+    background-color: #2061b0;
+    box-shadow: 1px 1px black;
+    border : none;
+
+}
+
+.operatorButtons {
+    width: 75px;
+    height: 75px;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction : column;
+
+  
+}
+
+.opButtons {
+    font-size: 2em;
+    color: white;
+    padding: 5%;
+    border: none;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #3db5e5;
+    box-shadow: 1px 1px black;
+
+} 
